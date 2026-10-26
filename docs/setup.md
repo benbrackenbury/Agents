@@ -1,12 +1,12 @@
 # Setup
 
-Clone this repo (ssh not https) into `~/agents`
+Clone this repo (ssh not https) into `~/.agents`
 
 ## Skills
 
 Symlink the `skills` directory for other agents
 
-eg `~/.cursor/skills`, `~/.agents/skills`, `~/claude/skills`
+eg `~/.cursor/skills`, `~/.grok/skills`, `~/claude/skills`
 
 If this repo has already been set up on the machine, ignore the symlinks
 that have already been created, delete/ignore nes that aren't needed
