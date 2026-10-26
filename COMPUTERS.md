@@ -1,6 +1,13 @@
 # Computers
 
-All on Tailscale Tailnet
+## Personal
+
+All on Tailscale.
+
+If the hostname of the current machine is not one of the following,
+none of them are accessible, assume I'm at work or a different setup etc.,
+ignore the list of computers below and instead read the `COMPUTERS.local.md`
+file instead if it exists.
 
 | Name | Hostname | Device | Chip | Arch | RAM | OS | Always on |
 | --- | --- | --- | --- | --- | --- | --- | --- |
