@@ -12,6 +12,10 @@ If this repo has already been set up on the machine, ignore the symlinks
 that have already been created, delete/ignore nes that aren't needed
 (eg if I don't have Claude installed don't bother with the claude symlink etc).
 
+Cursor Cloud Agents and the `/` skill picker load project skills from
+`.cursor/skills/` in this repo, which points at `skills/`. You do not need
+the home-directory symlink for that.
+
 ## Computers
 
 If the hostname of this machine isn't one of the hosnames listed in
