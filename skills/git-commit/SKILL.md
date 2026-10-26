@@ -1,6 +1,9 @@
 ---
 name: git-commit
 description: Add and commit changes to a git repository.
+metadata:
+  author: Ben Brackenbury
+  version: "1.0.0"
 ---
 
 # Git Commit
