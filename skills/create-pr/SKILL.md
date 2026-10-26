@@ -33,8 +33,9 @@ Structure should be
   - Steps to reproduce
 - Solution
   - Thorough but still concise technical information the solution.
-- Reproducing
-  - Brief and concise non-technical instructions for how to manually reproduce and verify fix/change.
+- Verification
+  - Brief and concise non-technical instructions for how to manually reproduce and verify the fix/change.
+  - Include screenshots and/or video recordings where appropriate and if possible.
 
 ## Babysitting
 
