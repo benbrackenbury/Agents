@@ -10,20 +10,20 @@ From an existing clone with a clean working tree:
 ./scripts/update.sh
 ```
 
-Pulls the latest and re-rsyncs `skills/` into `.cursor/skills/`.
+Pulls the latest and re-rsyncs `skills/` into `~/.cursor/skills/`.
 
 ## Skills
 
 ### Cursor
 
-Rsync `skills/` into `.cursor/skills/` (gitignored, not in the repo):
+Rsync `skills/` into `~/.cursor/skills/`:
 
 ```sh
-rsync -a --delete skills/ .cursor/skills/
+rsync -a --delete skills/ ~/.cursor/skills/
 ```
 
-`./scripts/update.sh` does this after a pull. You do not need a
-`~/.cursor/skills` symlink.
+`./scripts/update.sh` does this after a pull. If `~/.cursor/skills` is a
+symlink, remove it first so rsync writes a real directory.
 
 ### Other agents
 
