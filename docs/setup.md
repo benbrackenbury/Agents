@@ -16,17 +16,14 @@ Pulls the latest and re-rsyncs `skills/` into `.cursor/skills/`.
 
 ### Cursor
 
-Cloud agents cannot follow a symlink. Copy `skills/` into the project-level
-Cursor skills dir with rsync, then commit the copies:
+Rsync `skills/` into `.cursor/skills/` (gitignored, not in the repo):
 
 ```sh
-rm -f .cursor/skills   # only if it is still a symlink
 rsync -a --delete skills/ .cursor/skills/
 ```
 
-Re-run the rsync (and commit) after adding or changing skills. Cursor Cloud
-Agents and the `/` skill picker load from `.cursor/skills/` in this repo. You
-do not need a `~/.cursor/skills` symlink.
+`./scripts/update.sh` does this after a pull. You do not need a
+`~/.cursor/skills` symlink.
 
 ### Other agents
 
