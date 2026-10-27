@@ -2,6 +2,16 @@
 
 Clone this repo (ssh not https) into `~/.agents`
 
+## Update
+
+From an existing clone with a clean working tree:
+
+```sh
+./scripts/update.sh
+```
+
+Pulls the latest and re-rsyncs `skills/` into `.cursor/skills/`.
+
 ## Skills
 
 ### Cursor
